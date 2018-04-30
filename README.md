@@ -48,7 +48,7 @@ To obtain API key please visit the [Google Developer Console](https://console.de
 
 ## Usage
 
-### For version >= 2.0.1
+### For version >= 2.0.0
 
 Simply start using the component in your HTML.
 
