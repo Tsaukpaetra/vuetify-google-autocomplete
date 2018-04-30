@@ -1,7 +1,7 @@
 {
   "name": "veoci-vuetify-google-autocomplete",
   "version": "2.0.1",
-  "description": "A Vuetify ready Vue.jS component to Google Places Autocomplete",
+  "description": "A Vuetify ready Vue.jS component to Google Places Autocomplete - Forked by Veoci",
   "main": "dist/index.js",
   "homepage": "https://github.com/gabaum10/vuetify-google-autocomplete",
   "repository": {
