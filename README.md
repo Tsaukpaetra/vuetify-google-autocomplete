@@ -4,9 +4,7 @@ A Vuetify ready Vue.js (2.x) autosuggest component for the Google Maps Places AP
 
 ## Versions
 
-Latest Stable: 1.1.0
-
-Latest Dev Stable: 2.0.1
+Latest Stable: 2.0.1
 
 See [releases](https://github.com/MadimetjaShika/vuetify-google-autocomplete/releases) for details.
 
@@ -32,7 +30,7 @@ Or
 yarn add vuetify-google-autocomplete
 ```
 
-### For version >= 2.0.0-alpha.2
+### For version >= 2.0.0
 
 Within your main.js or Vue entry point, import and initialise the component.
 
@@ -46,28 +44,11 @@ Vue.use(VuetifyGoogleAutocomplete, {
 });
 ```
 
-### For version <= 1.1.0
-
-This component uses Google Maps Places API to get geo suggests for autocompletion, so you have to include the Google Maps Places API in the `<head>` of your HTML:
-
-```html
-<!DOCTYPE html>
-  <html>
-  <head>
-    …
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE&libraries=places"></script>
-  </head>
-  <body>
-    …
-  </body>
-</html>
-```
-
 To obtain API key please visit the [Google Developer Console](https://console.developers.google.com). The API's that you have to enable in your Google API Manager Dashboard are [Google Maps Geocoding API](https://developers.google.com/maps/documentation/geocoding/start), [Google Places API Web Service](https://developers.google.com/places/web-service/) and [Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/).
 
 ## Usage
 
-### For version >= 2.0.0-alpha.1
+### For version >= 2.0.1
 
 Simply start using the component in your HTML.
 
@@ -80,15 +61,6 @@ Simply start using the component in your HTML.
     v-on:placechanged="getAddressData"
 >
 </vuetify-google-autocomplete>
-```
-
-### For version <= 1.1.0
-
-The Vuetify Google Autocomplete works out of the box by just including it.
-
-```js
-import VuetifyGoogleAutocomplete from 'vuetify-google-autocomplete'
-
 ```
 
 In your template you can use this syntax:
