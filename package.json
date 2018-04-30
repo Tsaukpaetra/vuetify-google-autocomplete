@@ -1,14 +1,15 @@
 {
-  "name": "vuetify-google-autocomplete",
-  "version": "2.0.0-Alpha.8",
+  "name": "veoci-vuetify-google-autocomplete",
+  "version": "2.0.0",
   "description": "A Vuetify ready Vue.jS component to Google Places Autocomplete",
   "main": "dist/index.js",
-  "homepage": "https://github.com/MadimetjaShika/vuetify-google-autocomplete",
+  "homepage": "https://github.com/gabaum10/vuetify-google-autocomplete",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MadimetjaShika/vuetify-google-autocomplete.git"
+    "url": "https://github.com/gabaum10/vuetify-google-autocomplete.git"
   },
   "keywords": [
+    "veoci",
     "vue",
     "vuetify",
     "google",
@@ -34,7 +35,7 @@
       "./test/helpers/setup.js"
     ]
   },
-  "author": "Madi Shika <mmjshika@gmail.com>",
+  "author": "Geoff Baum <gabaum10@gmail.com>",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
