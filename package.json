@@ -1,6 +1,6 @@
 {
   "name": "veoci-vuetify-google-autocomplete",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A Vuetify ready Vue.jS component to Google Places Autocomplete",
   "main": "dist/index.js",
   "homepage": "https://github.com/gabaum10/vuetify-google-autocomplete",
@@ -60,10 +60,10 @@
     "eslint-plugin-import": "^2.9.0",
     "gh-pages": "^1.1.0",
     "laravel-mix": "^0.8.8",
+    "vue": "^2.5.13",
     "vue-clipboards": "^1.2.1",
     "vue-node": "^1.1.1",
-    "webpack": "^3.11.0",
-    "vue": "^2.5.13",
-    "vuetify": "^1.0"
+    "vuetify": "^1.0",
+    "webpack": "^3.11.0"
   }
 }
