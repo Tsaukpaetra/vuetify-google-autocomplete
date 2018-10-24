@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import Vuetify from 'vuetify';
+import Vuetify, { VTextField } from 'vuetify'
 import VueClipboards from 'vue-clipboards';
 import VuetifyGoogleAutocomplete from './../../dist/index';
 import countryCodeList from './countrycode.json';
@@ -8,7 +8,9 @@ Vue.use(VuetifyGoogleAutocomplete, {
   apiKey: 'AIzaSyDyJUwEpWPLTDZrX9TVeq5m8vGQScqyZCA',
 });
 
-Vue.use(Vuetify);
+Vue.use(Vuetify, {
+  components: { VTextField }
+});
 Vue.use(VueClipboards);
 
 const app = new Vue({
@@ -63,7 +65,7 @@ const app = new Vue({
       {
         isIcon: false,
         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAA6ElEQVRoQ+2Yaw7CIBCEl+vo/Y+i16kxMVETmgGGLW3y9S/dgXkshZa4+FMuvv6AwGoHcQAHTAWIkCmgXY4DtoQmAA6YAtrlOGBLaAKUR8RmYiwth8BS+SPiz4Hb1pamZ/n2fmbNnji/80Pg9A7U4qIiNKvmHSGFJSOkAGoOzKqBQIsCOPDZK/f6SsUxpQdq+/dI47ckAAKzvgNTIjRyrlFNPILZU2OfRiHQI3fl3aErZc8l6B65f8AhoBJwSgfUoo8cH4rQkQtUc0FAKZQ9jgPZCit8HFAKZY/jQLbCCh8HlELZ45d34AVLqehFzhuaFgAAAABJRU5ErkJggg==',
-        title: 'View on NPM', 
+        title: 'View on NPM',
         link: 'https://www.npmjs.com/package/vuetify-google-autocomplete',
       },
     ]
